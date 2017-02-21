@@ -1,0 +1,40 @@
+<aiml version="1.0">
+
+<!-- This category works with the Standard AIML Set -->
+<category>
+<pattern>LOAD AIML IRZA</pattern>
+<template>
+
+<!-- Load standard AIML set -->
+<learn>/home/irq/intellegenciat/pyaiml/standard/i_command.aiml</learn>
+<learn>/home/irq/intellegenciat/pyaiml/standard/i_tanya.aiml</learn>
+<learn>/home/irq/intellegenciat/pyaiml/standard/i_atomic.aiml</learn>
+<learn>/home/irq/intellegenciat/pyaiml/standard/i_hallo.aiml</learn>
+<learn>/home/irq/intellegenciat/pyaiml/standard/i_iya.aiml</learn>
+<learn>/home/irq/intellegenciat/pyaiml/standard/i_udc.aiml</learn>
+
+<learn>/home/irq/intellegenciat/pyaiml/standard/i_peribahasa.aiml</learn>
+<learn>/home/irq/intellegenciat/pyaiml/standard/i_peri_A.aiml</learn>
+<learn>/home/irq/intellegenciat/pyaiml/standard/i_peri_B.aiml</learn>
+<learn>/home/irq/intellegenciat/pyaiml/standard/i_peri_C.aiml</learn>
+<learn>/home/irq/intellegenciat/pyaiml/standard/i_peri_D.aiml</learn>
+<learn>/home/irq/intellegenciat/pyaiml/standard/i_peri_EFGH.aiml</learn>
+<learn>/home/irq/intellegenciat/pyaiml/standard/i_peri_IJK.aiml</learn>
+<learn>/home/irq/intellegenciat/pyaiml/standard/i_peri_LMNOPQR.aiml</learn>
+<learn>/home/irq/intellegenciat/pyaiml/standard/i_peri_STU.aiml</learn>
+<learn>/home/irq/intellegenciat/pyaiml/standard/i_peri_VWXYZ.aiml</learn>
+
+<learn>/home/irq/intellegenciat/pyaiml/standard/i_humor.aiml</learn>
+<learn>/home/irq/intellegenciat/pyaiml/standard/i_gossip.aiml</learn>
+<learn>/home/irq/intellegenciat/pyaiml/standard/i_fakta.aiml</learn>
+<learn>/home/irq/intellegenciat/pyaiml/standard/i_bijak.aiml</learn>
+<learn>/home/irq/intellegenciat/pyaiml/standard/i_pantun.aiml</learn>
+
+<learn>/home/irq/intellegenciat/pyaiml/standard/i_bantu.aiml</learn>
+<learn>/home/irq/intellegenciat/pyaiml/standard/i_dialog.aiml</learn>
+<learn>/home/irq/intellegenciat/pyaiml/standard/i_robot_cmd.aiml</learn>
+
+</template>
+</category>
+
+</aiml>

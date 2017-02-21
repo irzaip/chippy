@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<robot name="multipleshapes">
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <box size="0.4 0.4 0.4"/>
+      </geometry>
+        <material name="white">
+          <color rgba="1 1 1 1"/>
+          </material>
+    </visual>
+  </link>
+
+  <link name="right_leg">
+    <visual>
+      <geometry>
+        <cylinder length = "0.05" radius="0.1"/>
+        </geometry>
+        <origin rpy="1.57079633 0 1.57079633" xyz="0 0 0"/>
+        <material name="blue">
+          <color rgba="0 0 .8 1"/>
+          </material>
+    </visual>
+  </link>
+
+  <link name="left_leg">
+    <visual>
+      <geometry>
+        <cylinder length = "0.05" radius="0.1"/>
+        </geometry>
+        <origin rpy="1.57079633 0 1.57079633" xyz="0 0 0"/>
+        <material name="blue">
+          <color rgba="0 0 .8 1"/>
+          </material>
+    </visual>
+  </link>
+
+  <link name="caster">
+    <visual>
+      <geometry>
+        <cylinder length = "0.05" radius="0.1"/>
+        </geometry>
+        <origin rpy="1.57079633 0 1.57079633" xyz="0 0 0"/>
+        <material name="blue">
+          <color rgba="0 0 .8 1"/>
+          </material>
+    </visual>
+  </link>
+
+  <joint name="base_to_right_leg" type="continuous">
+    <axis xyz="1 0 0"/>
+    <parent link="base_link"/>
+    <child link="right_leg"/>
+    <origin xyz="0.2 0.1 -0.2"/>
+    <limit effort="100" velocity="100"/>
+    <joint_properties damping="0.0" friction="0.0"/>
+  </joint>
+
+  <joint name="base_to_left_leg" type="continuous">
+    <axis xyz="1 0 0"/>
+    <parent link="base_link"/>
+    <child link="left_leg"/>
+    <origin xyz="-0.2 0.1 -0.2"/>
+    <limit effort="100" velocity="100"/>
+    <joint_properties damping="0.0" friction="0.0"/>
+  </joint>
+
+  <joint name="base_to_caster" type="continuous">
+    <axis xyz="1 0 0"/>
+    <parent link="base_link"/>
+    <child link="caster"/>
+    <origin xyz="0 -0.2 -0.2"/>
+    <limit effort="100" velocity="100"/>
+    <joint_properties damping="0.0" friction="0.0"/>
+  </joint>
+
+
+</robot>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+
+
+<category>
+  <pattern>JAM BERAPA</pattern>
+  <template>sebentar [CMD:JAM PRM:NOW]
+  </template>
+</category>
+
+
+
+<category>
+  <pattern>MATIKAN LAMPU</pattern>
+  <template>
+  <random>
+    <li>ok saya matikan [CMD:MATIKANLMP2] lampu</li>
+    <li>coba dulu yaa</li>
+  </random>
+  </template>
+</category>
+
+
+</aiml>
